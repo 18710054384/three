@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: .12rem; }
+
+.header {
+  border-bottom: .1rem solid #F3F3FE; }
+  .header ul {
+    height: .5rem;
+    line-height: .5rem;
+    display: flex; }
+    .header ul li {
+      flex: 1;
+      text-align: center; }
+    .header ul .border-bottom a {
+      color: blue;
+      border-bottom: 2px solid blue;
+      padding: .15rem .1rem; }
+
+/*# sourceMappingURL=style.css.map */
