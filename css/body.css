@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: .12rem;
+  overflow: hidden; }
+
+.section {
+  flex: 1;
+  overflow-y: scroll;
+  margin-top: .6rem;
+  padding: .1rem; }
+  .section .content .info {
+    border-radius: .1rem;
+    height: 1.12rem;
+    border: 1px solid #ccc;
+    margin-top: .15rem; }
+    .section .content .info dl dt {
+      height: .65rem;
+      border-radius: .1rem .1rem 0 0; }
+      .section .content .info dl dt p {
+        color: #fff; }
+        .section .content .info dl dt p span {
+          font-size: .26rem; }
+        .section .content .info dl dt p b {
+          font-size: .45rem; }
+        .section .content .info dl dt p .descript {
+          float: right;
+          padding: .1rem .1rem 0 0;
+          font-size: .28rem; }
+    .section .content .info dl dd {
+      height: .47rem;
+      line-height: .2rem;
+      padding: .05rem; }
+
+/*# sourceMappingURL=body.css.map */

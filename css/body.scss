@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    font-size: .12rem;
+    overflow: hidden;
+}
+.section{
+    flex:1;
+    overflow-y:scroll;
+    margin-top:.6rem;
+    padding:.1rem;
+    .content{
+        .info{
+            border-radius: .1rem;
+            height: 1.12rem;
+            border:1px solid #ccc;
+            margin-top: .15rem; 
+            dl{
+                dt{
+                    height: .65rem;
+                    border-radius: .1rem .1rem 0 0;
+                    p{
+                        color:#fff;
+                        span{
+                            font-size: .26rem;
+                        }
+                        b{
+                            font-size: .45rem;
+                        }
+                        .descript{
+                            float:right;
+                            padding: .1rem .1rem 0 0;
+                            font-size: .28rem;
+                        }
+                    }
+                }
+                dd{
+                    height: .47rem;
+                    line-height: .2rem;
+                    padding: .05rem;
+                }
+            }
+        }
+    }
+}
